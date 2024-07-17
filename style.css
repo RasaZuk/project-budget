@@ -92,20 +92,97 @@ header nav a {
     flex-direction: row;
     gap: 1rem;
     justify-content: space-evenly;
+    
 
 }
 
 .buttons button {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(241, 242, 247);
     border: 1px solid rgb(153, 158, 177);
+    color: rgb(153, 158, 177);
     border-radius: 0.5rem;
     width: auto;
-    height: 3rem;
-    padding: 2rem;
-    
+    height: 2.9rem;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
 }
 
 
+.buttons p {
+    font-size: 1.2rem;
+}
+
+
+.summary {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 1rem 2rem 2rem 4rem;
+    align-items: center;
+}
+
+.summary h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 30rem;
+}
+
+.summary p {
+    color: rgb(153, 158, 177);
+    font-size: 1.2rem;
+}
+
+.listing {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 1rem;
+    margin: 1rem 3rem 1.4rem 4rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+
+}
+
+.listing > svg {
+    background-color: rgb(221, 236, 255);
+    padding: 0.3rem;
+    border-radius: 8px;
+
+
+}
+
+.listing > div > h4 {
+    font-size: 1.3rem;
+}
+
+.listing > div > p {
+    font-size: 1.3rem;
+}
+
+.modification {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.modification svg {
+    background-color: rgb(221, 236, 255);
+    padding: 0.2rem;
+}
+
+
+.modification button {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgb(244, 247, 252);
+    color: rgb(153, 158, 177);
+}
 
 
 
@@ -113,4 +190,74 @@ aside {
     display: flex;
     flex-direction: column;
     
+}
+
+.top-line {
+    display: flex;
+    justify-content: flex-end;
+    height: 2rem;
+    width: 100%;
+    margin: 2rem;
+    gap: 1rem;
+
+}
+
+
+.top-line img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.wallets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+
+}
+
+.plus {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(153, 158, 177);border-style: dashed;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+    color: rgb(153, 158, 177);
+}
+
+.parts {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.parts img {
+    border-radius: 10px;
+}
+
+
+.descript > h4 {
+    font-size: 1rem;
+}
+
+    
+.categories {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.final {
+    display: flex;
+    margin: 2rem;
+    
+}
+
+.final img {
+   border-radius: 10px;
+   margin-right: 1rem;
 }
