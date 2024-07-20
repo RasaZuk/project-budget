@@ -8,6 +8,8 @@ body * {
 
 body {
     display: flex;
+    color: rgb(153, 158, 177);
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -35,6 +37,9 @@ header {
     margin-left: 4rem;
     gap: 1rem;
 }
+ h1 {
+    color: black;
+ }
 
 .search{
     position: relative;
@@ -95,7 +100,7 @@ header nav a {
 }
 
 .budget-intro h2 {
-    color: blue;
+    color: rgb(1, 122, 255);
 }
 
 .budget-intro p {
@@ -148,8 +153,14 @@ header nav a {
 
 .buttons p {
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
+.buttons :nth-child(3) {
+    color: rgb(22, 137, 254);
+    border: none;
+    background-color: rgb(210, 231, 252);
+}
 
 .summary {
     display: flex;
@@ -163,6 +174,7 @@ header nav a {
     font-weight: 700;
     font-size: 1.2rem;
     margin-right: 30rem;
+    color: black;
 }
 
 .summary p {
@@ -181,40 +193,46 @@ header nav a {
     align-items: center;
     width: 95%;
     justify-content: start;
-
 }
+
+.listing :nth-child(2) {
+    flex-grow: 2;
+}
+
+.listing div {
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
 
 .listing > div > svg {
     background-color: rgb(221, 236, 255);
-    padding: 0.3rem;
+    padding: 0.5rem;
     border-radius: 8px;
-    margin-right: 1rem;
-    
 }
 
-
 .listing > div > h4 {
+    color: black;
     font-size: 1.3rem;
 }
 
 .listing > div > p {
-    font-size: 1.3rem;
-    
+    font-size: 1.3rem; 
 }
 
 .right-side {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 3.5rem;
     align-items: center;
-    
 }
 
-.listing h3 {
+.listing div h3 {
     display: flex;
     gap: 2rem;
+    color: black;
+    margin-right: 2.5rem;
+    font-weight: 900;
 }
-
 
 
 .listing div button {
@@ -226,55 +244,63 @@ header nav a {
 }
 
 
-
 aside {
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem 1rem 1rem;
-    
-    
+    width: 330px;
 }
 
 .top-line {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     height: 2rem;
     width: 100%;
-    margin: 2rem;
-    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
 
 }
 
+.top-line svg {
+    margin-top: 0.8rem;
+}
 
 .top-line img {
-    height: 3rem;
-    width: 3rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 10px;
+    
 }
 
-.wallets {
+.title-plus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1rem;
+    margin: 3rem 0rem 1.7rem 3rem;
     align-items: center;
 
 }
 
+.title-plus h3 {
+    color: black;
+}
 .plus {
     background-color: white;
     border-radius: 10px;
     border: 1px solid rgb(153, 158, 177);border-style: dashed;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     font-size: 1.5rem;
     color: rgb(153, 158, 177);
+    
 }
 
 .parts {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    margin: 1rem;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0.5rem 0rem 3rem 3rem;
 }
 
 .parts img {
@@ -283,24 +309,30 @@ aside {
 
 
 .descript > h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: black;
 }
 
-    
-.categories {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    margin: 2rem;
+.line {
+    background-color: rgb(153, 158, 177);
+    width: 115%;
+    height: 2px;
 }
+    
 
 .final {
     display: flex;
-    margin: 2rem;
-    
+    align-items: center;
+    margin: 0.3rem 0rem 2rem 3rem;
+
 }
 
 .final img {
    border-radius: 10px;
-   margin-right: 1rem;
+   margin-right: 1.5rem;
+}
+
+.final h4 {
+    color: black;
+    font-size: 1.1rem;
 }
