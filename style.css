@@ -145,7 +145,7 @@ header nav a {
     height: 2.9rem;
     padding: 1rem;
     align-items: center;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 
 
@@ -164,7 +164,7 @@ header nav a {
     display: flex;
     gap: 1rem;
     justify-content: space-between;
-    margin: 1rem 0.5rem 2rem 1rem;
+    margin: 1.5rem 0 2rem 1.5rem;
     align-items: center;
 }
 
@@ -247,7 +247,7 @@ header nav a {
 aside {
     display: flex;
     flex-direction: column;
-    width: 330px;
+    width: 300px;
 }
 
 .top-line {
@@ -315,7 +315,7 @@ aside {
 
 .line {
     background-color: rgb(153, 158, 177);
-    width: 115%;
+    width: 110%;
     height: 2px;
 }
     
