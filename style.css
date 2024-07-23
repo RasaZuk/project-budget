@@ -10,7 +10,6 @@ body {
     display: flex;
     color: rgb(153, 158, 177);
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 
@@ -34,10 +33,11 @@ header {
 .header-info {
     display: flex;
     flex-direction: row;
-    margin-left: 4rem;
+    margin-left: 2rem;
     gap: 1rem;
 }
- h1 {
+
+h1 {
     color: black;
  }
 
@@ -58,7 +58,7 @@ header {
     border: 1px solid white;
     border-radius: 0.5rem;
     height: 3rem;
-    width: 13rem;
+    width: 11rem;
     margin: 1rem;
     font-size: 1rem;
     color: rgb(153, 158, 177);
@@ -66,11 +66,11 @@ header {
 
 header nav {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 header nav a:nth-child(2) {
-    font-weight: 900;
+    font-weight: 700;
     color: black;
 }
 
@@ -86,12 +86,12 @@ header nav a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1rem 0.5rem 2rem 3rem;
+    margin: 1rem 0.5rem 2rem 1rem;
 }
 
 .title div {
     display: flex;
-    gap: 0.7rem;
+    gap: 0.5rem;
 }
 
 .budget-intro {
@@ -131,7 +131,6 @@ header nav a {
 .buttons {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
     justify-content: space-evenly;
 }
 
@@ -146,8 +145,7 @@ header nav a {
     height: 2.9rem;
     padding: 1rem;
     align-items: center;
-    gap: 1rem;
-    margin: 1rem;
+    gap: 0.7rem;
 }
 
 
@@ -166,20 +164,22 @@ header nav a {
     display: flex;
     gap: 1rem;
     justify-content: space-between;
-    margin: 1rem 2rem 2rem 4rem;
+    margin: 1rem 2rem 2rem 1rem;
     align-items: center;
 }
 
-.summary h3 {
+.summary div h3 {
     font-weight: 700;
     font-size: 1.2rem;
-    margin-right: 30rem;
     color: black;
 }
 
-.summary p {
+.summary .value {
+    display: flex;
+    flex-direction: row;
     color: rgb(153, 158, 177);
     font-size: 1.2rem;
+    gap: 2rem;
 }
 
 .listing {
